@@ -22,4 +22,18 @@ Baidu[[baidu]](https://pan.baidu.com/s/1WjVxmZpmuyMWtR4aH5v2nQ)
 Microsoft OneDrive[[OneDrive]](https://1drv.ms/u/s!AtAOkdZV4tWGiFqCzVUhGeiOiWS9)
 
 ## Contact with us
+Please cite as:
+
+Jie-chun Chen, Pin-qing Yu, Chun-ying Yao, Li-ping Zhao, Yu-yang Qiao,
+Eye detection and coarse localization of pupil for video-based eye tracking systems,
+Expert Systems with Applications,
+2023,
+121316,
+ISSN 0957-4174,
+https://doi.org/10.1016/j.eswa.2023.121316.
+(https://www.sciencedirect.com/science/article/pii/S0957417423018183)
+Abstract: A video-based eye tracking system generally captures NIR images, each of which contains one or two eyes of a subject. The subject’s point of gaze is then determined using 3D eye model and pupil centre corneal reflection technique. Eye detection and pupil localization play significant roles in video-based eye tracking systems. However, face rotation, wearing glasses, eye-shape variation and illumination variation make it difficult to detect an eye and localize a pupil accurately in the images captured by video-based eye tracking systems. In this paper, we proposed an eye detector that adopts a coarse-to-fine strategy. The eye detector consists of three classifiers: an ATLBP-THACs feature-based cascade classifier, a branch CNN and a multi-task CNN. We also proposed a method for coarse pupil localization. Coarse localization is an important step for pupil localization since it can provide initial pupil coordinates for a fine pupil localization method. Given a downscaled eye image, a shallow CNN is used to estimate the location of seven landmarks. On this basis, pupil center and radius are estimated. A method for small dim target enhancement is used to increase the contrast between pupil and background. The main goal of pupil enhancement is to make it easier to binarize an eye image. At last, component filtering is made by utilizing the estimated pupil center and radius. We collected a dataset named neepuEYE dataset that consists of 5500 NIR eye images from 109 people. The images can be used to generate augmented samples for training an eye detector since they contain eyes with different shape, orientation and pupil localization. Experimental results show that our eye detector is a fast and robust detector. Furthermore, our method for coarse pupil localization can obtain not only high detection rate but also high localization speed.
+Keywords: eye detection; pupil localization; eye tracking; gaze tracking; NIR
+
+## Contact with us
 <pre><code>Email: chenjiechun@neepu.edu.cn</code></pre>
